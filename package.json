@@ -1,0 +1,28 @@
+{
+  "name": "pong",
+  "version": "1.0.0",
+  "description": "Multiplayer pong game",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/server/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bloomca/pong.git"
+  },
+  "keywords": [
+    "pong",
+    "game",
+    "websockets"
+  ],
+  "author": "Seva Zaikov <seva.zaikov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bloomca/pong/issues"
+  },
+  "homepage": "https://github.com/Bloomca/pong#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.8"
+  }
+}
